@@ -23,25 +23,53 @@ body{
     text-decoration: underline;
 }
 
-.shortline{
-    text-decoration: background color; 
-}
-
-
-.styled-table {
-    border-collapse: collapse;
+/* Apply basic styling to the table */
+table {
     width: 100%;
-    max-width: 600px; 
-    margin: 0 auto; 
-    font-family: Arial, sans-serif;
-    background-color: #16181C; 
-    color: #FFFFFF; 
-}
-
-.styled-table th {
-    background-color: #000;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #16181C; /* Set the background color */
+    color: #ffffff; /* Set the text color to white or an appropriate contrast color */
+  }
+  
+  /* Style table headers */
+  th {
+    background-color: #2b2d2f; /* Adjust the header background color */
     text-align: left;
     padding: 10px;
-    border: 1px solid #ddd;
+  }
+  
+  /* Style table rows */
+  tr:nth-child(even) {
+    background-color: #2b2d2f; /* Adjust the even row background color */
+  }
+  
+  tr:nth-child(odd) {
+    background-color: #1f2123; /* Adjust the odd row background color */
+  }
+  
+  /* Style table cells */
+  td {
+    padding: 10px;
+    border: 1px solid #333; /* Adjust the cell border color */
+  }
+  
+  /* Add hover effect to rows */
+  tr:hover {
+    background-color: #333; /* Adjust the hover background color */
+  }
+  
+  .border{
+  border: 1px solid rgb(138, 30, 30);
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 1rem;
 }
 
+.underline{
+    background-color:rgb(218, 250, 37)
+}
+
+.color{
+    background-color: :aqua;
+}
