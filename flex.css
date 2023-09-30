@@ -1,0 +1,18 @@
+.logo{
+    width: 25px;
+}
+
+.header{
+ display: flex;
+ gap: 100px;
+}
+.r-icons{
+    flex: 1;
+    text-align: right;
+}
+.logoy{
+    width: 100px;
+}
+.color{
+    background-color: #F4F4F4;
+}
